@@ -18,7 +18,7 @@ public class main extends JavaPlugin{
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args){
         if(cmd.getName().equalsIgnoreCase("t")){
             int tmp;
-            tmp=1;
+            tmp = 10;
             String str = Integer.toString(tmp);
             sender.sendMessage(str);
         }
